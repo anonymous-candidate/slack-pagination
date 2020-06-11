@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const Params = () => {
+const Params = props => {
     const [input, setInput] = useState("");
 }
 

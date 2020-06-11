@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-const Code = () => {
+const Code = props => {
     const [example, setExample] = useState("");
 }
 
