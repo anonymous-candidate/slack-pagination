@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
+//import Image from "./image"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
@@ -26,6 +27,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        {/*<Image />*/}
       </h1>
     </div>
   </header>

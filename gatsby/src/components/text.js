@@ -1,7 +1,7 @@
-import React from "react"
+/*import React from "react"
 
 const Text = () => {
 
 }
 
-export default Text;
+export default Text;*/
