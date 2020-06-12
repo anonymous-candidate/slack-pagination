@@ -1,2 +1,2 @@
-One more thing to watch out for with the limit parameter: 
-It's possible to receive fewer results than your specified limit, even when there are additional results to retrieve. Avoid the temptation to check the size of results against the limit to conclude the results have been completely returned. Instead, check the next_cursor value in the response_metadata object to make sure that it's empty, null, or non-existent.
+One more thing to watch out for with the `limit` parameter: 
+It's possible to receive fewer results than your specified limit, even when there are additional results to retrieve. Avoid the temptation to check the size of results against the limit to conclude the results have been completely returned. Instead, check the `next_cursor` value in the `response_metadata` object to make sure that it's empty, null, or non-existent.
