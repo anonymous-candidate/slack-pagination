@@ -1,4 +1,4 @@
-import { useState } from "react"
+/*import { useState } from "react"
 
 const Params = props => {
     const [input, setInput] = useState("");
@@ -9,4 +9,4 @@ const Params = props => {
     )
 }
 
-export default Params;
+export default Params;*/

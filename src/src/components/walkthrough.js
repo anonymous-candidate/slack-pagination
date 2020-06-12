@@ -1,5 +1,5 @@
 
-import React, { useState } from "react"
+/*import React, { useState } from "react"
 
 const Walkthrough = props => {
   const [query, setQuery] = useState("");
@@ -16,4 +16,4 @@ const Walkthrough = props => {
 
 }
 
-export default Walkthrough;
+export default Walkthrough;*/
