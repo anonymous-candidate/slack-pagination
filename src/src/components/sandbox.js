@@ -1,19 +1,25 @@
-import React, { FunctionComponent } from "react"
+import React from "react"
 import WalkThrough from "./walkthrough"
 import Params from "./params"
 import Code from "./code"
 
-const Sandbox: FunctionComponent = () => {
+const Sandbox = () => {
+    const [query, setQuery] = useState($firstQuery);
+    //some transformation of query
+    const changeQuery = (e) => {
+        setQuery(query.$next);
+    }
     return (
 //text cards beside component that walk you through the scenarios
 <div>
-<WalkThrough />
+<WalkThrough query={query.scenario} />
 {/*//response object display as json parsed object 
 //parameter fields
     //cursor
     //limi*/}
-<Params />
-<Code />
+<Params query={query.params} />
+<Button onClick={changeQuery} />
+<Code query={query.example} />
 {/*//possible scenario 1: you enter a limit and cursor and get the first page
 //possible scenario 2: you enter a limit and the next cursor and get the last page
 //possible scenario 3: you enter the recommended limit and receive the complete size

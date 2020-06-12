@@ -1,7 +1,11 @@
 import React, { useState } from "react"
 
 const Code = props => {
-    const [example, setExample] = useState("");
+    return (
+        <div>
+            <Query query={props.query} />
+        </div>
+    )
 }
 
 export default Code;
