@@ -1,4 +1,7 @@
 
+---
+slug: "scenario1a"
+---
 When accessing the first virtual page of a paginated collection — for instance making a `users.list` request for the first time — you'll receive a `response_metadata` attribute containing a cursor for your next request.
 
 Cursor-paginated methods accept `cursor` and `limit` parameters.
