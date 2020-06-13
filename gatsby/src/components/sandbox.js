@@ -22,7 +22,7 @@ const Sandbox = () => {
       <div>
         <p>
           <StaticQuery query={graphql`
-          query($slug: String!) {
+          query {
             markdownRemark(frontmatter: { slug: { eq: "scenario1a" } }) {
               html
               frontmatter {
