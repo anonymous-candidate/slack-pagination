@@ -27,8 +27,9 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-        {/*<Image />*/}
       </h1>
+      <br></br>
+      <Image />
     </div>
   </header>
 )
