@@ -4,13 +4,13 @@
 
 *Project Description:*
 
-Two things really caught my eye about the current Pagination page: the list of "Just the factoids" immediately prior to the Walkthrough section, which communicates a lot of information about cursor-based pagination methods in the Slack API in an unordered list, and the imbalance between the amount of time spent on cursor-based pagination vs classic pagination styles. 
+Two things really caught my eye about the [current Pagination page](https://api.slack.com/docs/pagination): the list of "Just the factoids" immediately prior to the Walkthrough section, which communicates a lot of information about cursor-based pagination methods in the Slack API in an unordered list, and the imbalance between the amount of time spent on cursor-based pagination vs classic pagination styles. 
 
 For me, my project was to really clarify for myself and a potential reader what the main "thesis" of this article was and to integrate clear and dynamic guidance to the reader throughout. Therefore, I took the following steps for this "first draft":
 
-1. I consulted the next-best thing to a Slack SME - the Slack engineering blog. [Reading the post on the introduction of cursor-based pagination]() clarified the language of the Pagination page and gave me my "why": cursor-based pagination is more useful for scalability. (I actually found the distinction between cursor and offset pagination fascinating!) By implication, it also answered my question of why the section on classic pagination styles seemed underdeveloped: Slack was trying to phase them out.
+1. I consulted the next-best thing to a Slack SME - the Slack engineering blog. [Reading the post on the introduction of cursor-based pagination](https://slack.engineering/evolving-api-pagination-at-slack-1c1f644f8e12) clarified the language of the Pagination page and gave me my "why": cursor-based pagination is more useful for scalability. (I actually found the distinction between cursor and offset pagination fascinating!) By implication, it also answered my question of why the section on classic pagination styles seemed underdeveloped: Slack was trying to phase them out.
 
-2. I then consulted my hypothetical end-user by skimming through various [Stack Oveflow threads]() about pagination woes using the Slack API. In general, a lot of them were struggling with trying to force cursor-based methods into older styles they understood, or wondering why they couldn't find examples for deprecated methods.
+2. I then consulted my hypothetical end-user by skimming through various Stack Oveflow threads about pagination woes using the Slack API. In general, a lot of them were struggling with trying to force cursor-based methods into older styles they understood, or wondering why they couldn't find examples for deprecated methods.
 
 3. This knowledge combined gave me the thesis that guided my rewrite: Slack would like to encourage the skillful use of cursor-based pagination methods while still doing due diligence vis a vis legacy methods.
 
@@ -21,8 +21,7 @@ For me, my project was to really clarify for myself and a potential reader what 
 In (re-)order, they would be:
 - [intro](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/intro.md)
 - [cursor-overview](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/cursor-overview.md)
-*walkthrough*
-- [scenario1a](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario1a.md)
+- *walkthrough* [scenario1a](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario1a.md)
 - [scenario1b](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario1b.md)
 - [example1b](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/example1b.md)
 - [scenario2](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario2.md)
@@ -31,8 +30,7 @@ In (re-)order, they would be:
 - [scenario3b](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario3b.md)
 - [scenario3c](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario3c.md)
 - [scenario4](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario4.md)
-- [scenario5](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario5.md)
-*/walkthrough*
+- [scenario5](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario5.md) */walkthrough*
 - [appendixA](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/appendixA.md)
 - [appendixB](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/appendixB.md)
 - [classic-overview](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/classic-overview.md)
