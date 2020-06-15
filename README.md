@@ -46,5 +46,6 @@ In (re-)order, they would be:
 - To what extent would we want to implement these ideas in the current page? I'd love to brainstorm more bite-sized ways to make changes based on the current (to me, unknown) limitations of the documentation site and CMS.
 - What would be the time investment needed to pull off the more ambitious interactive vision (playground, more code examples), and is it worth it to the team at this time: if I couldn't be spared to do the coding myself, is there a dev or two who can take the tickets?
 - Is my "thesis" clear - I'd welcome any suggestions in making it clearer! Also, to what extent does the team and stakeholders agree this is the best emphasis for this page?
+- Would it be a good idea to invest some time in some new tutorials? I noticed the linked tutorial lead to a 404. I think an example of React Relay for GraphQL for showing how you can use cursor-based pagination in a more traditional way (as mentioned in the Slack engineering blog post) could be helpful.
 
 Cheers!
