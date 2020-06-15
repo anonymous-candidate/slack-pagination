@@ -42,16 +42,19 @@ const Sandbox = () => {
           a string pointing at the next page of results. To retrieve the next
           page of results, provide this value as the <code>cursor</code>{" "}
           parameter to the paginated method.
-          <br></br>
-          <p>
-            <b>
-              (Cursor strings typically end with the = character. When
-              presenting this value as a URL or POST parameter, it must be
-              encoded as %3D.)
-            </b>
-          </p>
         </p>
-        <p>code example</p>
+        <br></br>
+        <p>
+          <b>
+            (Cursor strings typically end with the = character. When presenting
+            this value as a URL or POST parameter, it must be encoded as %3D.)
+          </b>
+        </p>
+        <p>
+          <a href="https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/example1b.md">
+            example code
+          </a>
+        </p>
       </div>
       <div>
         <p>
@@ -81,7 +84,11 @@ const Sandbox = () => {
             results.)
           </b>
         </p>
-        <p>code example</p>
+        <p>
+          <a href="https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/example2.md">
+            example code
+          </a>
+        </p>
       </div>
       <div>
         <p>
@@ -127,10 +134,8 @@ const Sandbox = () => {
       <div>
         <p>
           And one final note: Cursors expire and are meant to be used within a
-          reasonable amount of time. You should have no trouble pausing between 
-          <a href="https://api.slack.com/docs/rate-limits">
-            rate limiting
-          </a> 
+          reasonable amount of time. You should have no trouble pausing between
+          <a href="https://api.slack.com/docs/rate-limits">rate limiting</a>
           windows, but do not persist cursors for hours or days. Enhanced rate
           limiting conditions are provided when using cursor-based pagination.
         </p>
@@ -139,4 +144,4 @@ const Sandbox = () => {
   )
 }
 
-export default Sandbox;
+export default Sandbox
