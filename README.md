@@ -1,6 +1,6 @@
 # pagination revisted
 
-[Here is the full and complete webpage containing the finished first draft of the Pagination page.](https://loferris.github.io/pagination/)
+[Here is the full and complete webpage containing the finished first draft of the Pagination page.](https://anonymous-candidate.github.io/slack-pagination/)
 
 *Project Description:*
 
@@ -19,23 +19,23 @@ For me, my project was to really clarify for myself and a potential reader what 
 5. The process of revision, to summarize, essentially consisted of me using the CMS in my brain to reverse-engineer the current page into sections, reorder them as I saw fit, and rephrase certain parts to provide effective transitions. (You'll see, for example, that I have incorporated the "factoids" into the walkthrough as a whole.) You can see the effects of this process in the file names for the markdown files on this repo. (There are, naturally, more notes in my rough draft.)
 
 In (re-)order, they would be:
-- [intro](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/intro.md)
-- [cursor-overview](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/cursor-overview.md)
-- *walkthrough* [scenario1a](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario1a.md)
-- [scenario1b](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario1b.md)
-- [example1b](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/example1b.md)
-- [scenario2](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario2.md)
-- [example2](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/example2.md)
-- [scenario3a](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario3a.md)
-- [scenario3b](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario3b.md)
-- [scenario3c](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario3c.md)
-- [scenario4](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario4.md)
-- [scenario5](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/scenario5.md) */walkthrough*
-- [appendixA](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/appendixA.md)
-- [appendixB](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/appendixB.md)
-- [classic-overview](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/classic-overview.md)
-- [traditional](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/traditional.md)
-- [timeline](https://github.com/loferris/pagination/blob/slack_wow/gatsby/src/static/resources/timeline.md)
+- [intro](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/intro.md))
+- [cursor-overview](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/cursor-overview.md)
+- *walkthrough* [scenario1a](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario1a.md)
+- [scenario1b](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario1b.md)
+- [example1b](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/example1b.md)
+- [scenario2](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario2.md)
+- [example2](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/example2.md)
+- [scenario3a](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario3a.md)
+- [scenario3b](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario3b.md)
+- [scenario3c](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario3c.md)
+- [scenario4](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario4.md)
+- [scenario5](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/scenario5.md) */walkthrough*
+- [appendixA](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/appendixA.md)
+- [appendixB](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/appendixB.md)
+- [classic-overview](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/classic-overview.md)
+- [traditional](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/traditional.md)
+- [timeline](https://github.com/anonymous-candidate/slack-pagination/blob/master/src/static/resources/timeline.md)
 
 6. The big idea I had for this article was to re-envision the walkthrough as a more interactive tutorial. I wanted information to move horizontally instead of vertically, and I wanted all the different "factoids" to be woven into the walkthrough as different and more cohesive scenarios that could happen when using cursor-based methods. This would be my way to visually and experientially invite the reader to use cursor-based methods. As a nod to the spirit of the "factoids," I wrote a table recapitulating the key details as an "appendix."
 
